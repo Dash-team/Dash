@@ -1,0 +1,14 @@
+{
+  "name": "Dash",
+  "version": "1.0.0",
+  "description": "All in one student dashboard",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.12.3"
+  },
+  "scripts": {
+    "test": "./test/entry.js"
+  },
+  "author": "Dash team",
+  "license": "ISC"
+}

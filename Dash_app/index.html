@@ -1,0 +1,45 @@
+<!doctype>
+<html>
+	<head>
+		<title>App template</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/skeleton.css">
+		<link rel="stylesheet" href="css/core.css">
+	</head>
+	<body ng-app="app">
+		<div class="template nav" ng-controller="navController">
+			<div class="minimized" ng-click="toggle()">
+				<div class="app icon"></div>
+				<div class="menu icon" ng-bind-html="menuIconState | unsafe">| | |</div>
+			</div>
+			<div class="expanded">
+				<div class="nav">
+					<div class="title">{{appName}}</div>
+				</div>
+				<div class="options">
+					<ul ng-repeat="item in items">
+						<li class="item" data-link="{{item.link}}">{{item.display}}</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="template view" ng-controller="dashController" ng-view id="dashView">
+			<div class="card splash">
+				<div class="summary">
+					{{subject}} starting in {{timeleft}}
+				</div>
+				<div class="info">
+					<div class="noteCount">{{noteCount}} notes&nbsp;&nbsp;&nbsp;&nbsp;{{resourceCount}} resources</div>
+				</div>
+				<div class="actions">
+					<div class="item">Open notes</div>
+					<div class="item">View resources</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/angular.js"></script>
+		<script src="js/models.js"></script>
+		<script src="js/control.js"></script>
+		<script src="js/entry.js"></script>
+	</body>
+</html>
