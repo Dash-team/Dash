@@ -1,0 +1,30 @@
+<div class="card splash">
+	<div class="summary">
+		{{subject}} starting in {{timeleft}}
+	</div>
+	<div class="info">
+		<div class="noteCount">{{noteCount}} notes&nbsp;&nbsp;&nbsp;&nbsp;{{resourceCount}} resources</div>
+	</div>
+	<div class="actions">
+		<div class="item">Open notes</div>
+		<div class="item">View resources</div>
+	</div>
+</div>
+<div class="card reminder">
+	<textarea placeholder="remind me to ..." ng-Keypress="handle($event)" ng-model="reValue"></textarea>
+</div>
+<div class="card mark bio">
+	<h3 class="subject">Biology</h3>
+	<p class="percentage">83%</p>
+</div>
+<div class="card mark mus">
+	<h3 class="subject">Music</h3>
+	<p class="percentage">79%</p> 
+</div>
+<div class="card assessment">
+	assessments
+</div>
+<div id="res"></div>
+<div id="cal"></div>
+<div id="opt"></div>
+<div id="rem"></div>

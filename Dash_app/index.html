@@ -25,46 +25,18 @@
 				</div>
 			</div>
 		</div>
-		<div class="template view" ng-view id="das"  ng-controller="dashController" ng-view>
-			<div class="card splash">
-				<div class="summary">
-					{{subject}} starting in {{timeleft}}
-				</div>
-				<div class="info">
-					<div class="noteCount">{{noteCount}} notes&nbsp;&nbsp;&nbsp;&nbsp;{{resourceCount}} resources</div>
-				</div>
-				<div class="actions">
-					<div class="item">Open notes</div>
-					<div class="item">View resources</div>
-				</div>
-			</div>
-			<div class="card reminder">
-				<textarea placeholder="remind me to ..." ng-Keypress="handle($event)" ng-model="reValue"></textarea>
-			</div>
-			<div class="card mark bio">
-				<h3 class="subject">Biology</h3>
-				<p class="percentage">83%</p>
-			</div>
-			<div class="card mark mus">
-				<h3 class="subject">Music</h3>
-				<p class="percentage">79%</p> 
-			</div>
-			<div class="card assessment">
-				assessments
-			</div>
-			<div id="res"></div>
-			<div id="cal"></div>
-			<div id="opt"></div>
-			<div id="rem"></div>
-		</div>
+		<div class="template view" ng-view></div>
+
 		<script src="js/angular.js"></script>
+		<script src="js/angular-route.js"></script>
 		<script src="js/keyboard.js"></script>
 		<script src="js/noca.js"></script>
 		<script src="js/alertify.min.js"></script>
 
 		<script src="js/models.js"></script>
-		<script src="js/main.js"></script>
+		<script src="js/controllers/main.js"></script>
 		<script src="js/controllers/dash.js"></script>
 		<script src="js/controllers/nav.js"></script>
+		<script src="js/controllers/rem.js"></script>
 	</body>
 </html>
