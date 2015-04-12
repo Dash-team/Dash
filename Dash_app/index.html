@@ -25,7 +25,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="template view" ng-view id="das"  ng-controller="dashController">
+		<div class="template view" ng-view id="das"  ng-controller="dashController" ng-view>
 			<div class="card splash">
 				<div class="summary">
 					{{subject}} starting in {{timeleft}}
@@ -59,10 +59,12 @@
 		</div>
 		<script src="js/angular.js"></script>
 		<script src="js/keyboard.js"></script>
-		<script src="js/models.js"></script>
-		<script src="js/controllers/nav.js"></script>
 		<script src="js/noca.js"></script>
 		<script src="js/alertify.min.js"></script>
+
+		<script src="js/models.js"></script>
+		<script src="js/main.js"></script>
 		<script src="js/controllers/dash.js"></script>
+		<script src="js/controllers/nav.js"></script>
 	</body>
 </html>
