@@ -3,7 +3,7 @@ var app = angular.module("app",[]);
 app.filter('unsafe', function($sce) { return $sce.trustAsHtml; });
 
 app.controller("navController",["$scope", function($scope) {
-	$scope.appName = "Notebook";
+	$scope.appName = "Dash";
 	$scope.expandedMenu = document.querySelectorAll("div.template.nav div.expanded")[0];
 	$scope.menuIconState = "| | |";
 	$scope.open = false;
@@ -18,10 +18,9 @@ app.controller("navController",["$scope", function($scope) {
 			$scope.expandedMenu.style.left = "86px";
 		}	
 	}
-	$scope.items = [new globalMenuItem("file"),
-					new globalMenuItem("sync"),
+	$scope.items = [new globalMenuItem("resources"),
+					new globalMenuItem("calendar"),
 					new globalMenuItem("share"),
-					new globalMenuItem("collaborate"),
 					new globalMenuItem("options")
 					];
 }]);

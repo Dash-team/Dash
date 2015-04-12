@@ -105,13 +105,7 @@ div.template.view {
 	margin-left: 86px;
 	background: #fefefe;
 	overflow-x: hidden;
-	overflow-y: scroll;
-}
-div.template.view div.card {
-	width: 25%;
-	height: 200px;
-	background: grey;
-	display: inline-block;
+	overflow-y: auto;
 }
 div.template.view div.card.splash {
 	width: 100%;
@@ -172,26 +166,49 @@ div.template.view div.card.splash div.actions div.item:hover {
 div.template.view div.card.splash div.actions div.item:nth-child(2) {
 	margin-left: 200px;
 }
-#reminderWrap {
-	width: 30%;
+div.template.view div.card.reminder {
+	width: 40%;
 	height: 150px;
-	margin-top: 250px;
-	margin-left: 86px;
-	position: absolute;
+	display: block;
 }
-#addRe {
-	position:absolute;
+div.template.view div.card.reminder textarea {
+	position:relative;
 	width: 100%;
 	height: 150px;
 	resize:none;
 	outline:none;
 	border:none;
-	font-family: "Raleway";
-	font-size:20px;
-	overflow:hidden;
+	font-family: Georgia,Calibri,"Raleway";
+	font-style: italic;
+	font-size: 18px;
+	overflow-x:hidden;
+	overflow-y:auto;
 	border-left: 5px solid #03a9f4;
 	border-radius:0px;
 	word-wrap: normal;
-	background: #f3f3f3;
+	background: #f7f7f7;
+	padding: 15px 20px 5px 15px;
+	color: #288dff;
+	box-shadow: inset -2px -2px 0 #f3f3f3;
 }
+div.template.view div.card.mark {
+	width: 20%;
+	height: 150px;
+	display: inline-block;
+	background: green;
+}
+div.template.view div.card.mark.mus {
+	margin-left: -4px;
+} 
+div.template.view div.card.assessment {
+	width: 60%;
+	height: 300px;
+	display: block;
+	background: red;
+	margin-top: -300px;
+	margin-left: 40%;
+}
+
+
+
 
