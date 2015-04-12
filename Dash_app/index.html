@@ -4,6 +4,8 @@
 		<title>App template</title>
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/skeleton.css">
+		<link rel="stylesheet" href="css/alertify.core.css">
+		<link rel="stylesheet" href="css/alertify.default.css">
 		<link rel="stylesheet" href="css/core.css">
 	</head>
 	<body ng-app="app">
@@ -37,7 +39,7 @@
 				</div>
 			</div>
 			<div class="card reminder">
-				<textarea placeholder="remind me to ..."></textarea>
+				<textarea placeholder="remind me to ..." ng-Keypress="handle($event)" ng-model="reValue"></textarea>
 			</div>
 			<div class="card mark bio">
 				<h3 class="subject">Biology</h3>
@@ -45,7 +47,7 @@
 			</div>
 			<div class="card mark mus">
 				<h3 class="subject">Music</h3>
-				<p class="percentage">79%</p>
+				<p class="percentage">79%</p> 
 			</div>
 			<div class="card assessment">
 				assessments
@@ -55,6 +57,8 @@
 		<script src="js/keyboard.js"></script>
 		<script src="js/models.js"></script>
 		<script src="js/controllers/nav.js"></script>
+		<script src="js/noca.js"></script>
+		<script src="js/alertify.min.js"></script>
 		<script src="js/controllers/dash.js"></script>
 	</body>
 </html>
