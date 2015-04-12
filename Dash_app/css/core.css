@@ -102,15 +102,12 @@ div.template.view {
 	margin-left: 86px;
 	background: #fefefe;
 }
-<<<<<<< HEAD
-=======
 div.template.view div.card {
 	width: 25%;
 	height: 200px;
 	background: grey;
 	display: inline-block;
 }
->>>>>>> origin/master
 div.template.view div.card.splash {
 	width: 100%;
 	height: 250px;

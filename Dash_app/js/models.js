@@ -1,5 +1,3 @@
-
-<<<<<<< HEAD
 function globalMenuItem(name) {
 	this.display = name;
 	this.link = name.substr(0,3);
@@ -13,8 +11,6 @@ function module(name, func, data) {
 		console.info("[MODULE] module "+name+" pushed to globalModules");
 	}
 }
-function moduleList() {
-=======
 var globalMenuItem = function(name) {
 	this.display = name;
 	this.link = name.substr(0,3);
@@ -30,7 +26,6 @@ function module (name, func) {
 	}
 }
 var moduleList = function() {
->>>>>>> 85a06e715eac71b69411eafbb6d54cd65a0b014c
 	this.modules = [];
 	this.add = function(item) {
 		if (item instanceof module) {
@@ -49,11 +44,7 @@ var moduleList = function() {
 }
 var globalModules = new moduleList();
 
-
-<<<<<<< HEAD
 // EXPORT
-=======
->>>>>>> 85a06e715eac71b69411eafbb6d54cd65a0b014c
 window.globalMenuItem = globalMenuItem;
 window.module = module;
 window.globalModules = globalModules;
