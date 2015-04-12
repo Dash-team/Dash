@@ -18,13 +18,21 @@ app.controller("navController",["$scope", function($scope) {
 			$scope.expandedMenu.style.left = "86px";
 		}	
 	}
-	$scope.items = [new globalMenuItem("resources"),
+	$scope.items = [new globalMenuItem("dashboard"),
+					new globalMenuItem("resources"),
 					new globalMenuItem("calendar"),
-					new globalMenuItem("share"),
-					new globalMenuItem("options")
+					new globalMenuItem("options"),
+					new globalMenuItem("reminder")
 					];
 }]);
 
+var screenIDs = ["dashView", "reminderView"];
+
 window.app = app;
 
+// auto fadeout screen
 
+function fadeOut(screenId) {
+	document.getElementById("das").style.display = "none";
+	document.getElementById(screenId).style.display = "block";
+}
