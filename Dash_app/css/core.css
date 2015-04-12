@@ -1,0 +1,171 @@
+div.template.nav {
+	position: absolute;
+	width: 86px;
+	height: 100vh;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	background: #f7f7f7;
+}
+div.template.nav div.minimized {
+	position: absolute;
+	width: 86px;
+	height: 100vh;
+	z-index: 999;
+	cursor: pointer;
+	background: #f7f7f7;
+	/*box-shadow: inset 0 5px 0 #2296f3;*/
+}
+div.template.nav div.minimized div.app.icon {
+	width: 64px;
+	height: 64px;
+	margin-left: 11px;
+	margin-top: 75px;
+	background: url("../assets/icon.png") no-repeat center;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+div.template.nav div.minimized div.menu.icon {
+	width: 64px;
+	height: 64px;
+	margin-left: 11px;
+	margin-top: calc(50vh - 325px);
+	font-size: 1.75em;
+	text-align: center;
+	line-height: 64px;
+	color: #333;
+}
+div.template.nav div.expanded {
+	position: absolute;
+	width: 300px;
+	height: 100vh;
+	left: -214px;
+	z-index: 50;
+	background: #f7f7f7;
+	-webkit-transition: all 0.25s;
+	-o-transition: all 0.25s;
+	transition: all 0.25s;
+	transition-timing-function: ease-in-out;
+	/*box-shadow: inset 0 5px 0 #2296f3;*/
+}
+div.template.nav div.expanded div.nav {
+	width: 300px;
+	height: 64px;
+	margin-top: 75px;
+}
+div.template.nav div.expanded div.nav div.title {
+	position: absolute;
+	margin-left: 11px;
+	font-family: "Helvetica Neue","Tw Cen MT",sans-serif;
+	font-size: 30px;
+	font-weight: 200;
+	line-height: 64px;
+	color: #2296f3;
+	cursor: default;
+}
+div.template.nav div.expanded div.options {
+	width: 300px;
+	height: 50vh;
+	margin-top: 5vh;
+}
+div.template.nav div.expanded div.options ul li.item {
+	width: 300px;
+	height: 40px;
+	margin-left: 11px;
+	list-style: none;
+	font-family: "Helvetica Neue","Tw Cen MT",sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+	line-height: 40px;
+	text-transform: uppercase;
+	color: #0074d1;
+	cursor: pointer;
+}
+div.template.nav div.expanded div.options ul li.item:after {
+	content: "";
+	position: absolute;
+	width: 0px;
+	height: 3px;
+	margin-top: 35px;
+	left: 11px;
+	background: #0074d1;
+	overflow: hidden;
+	transition: all 0.25s;
+}
+div.template.nav div.expanded div.options ul li.item:hover::after {
+	width: 40px;
+}
+div.template.view {
+	position: absolute;
+	width: calc(100vw - 86px);
+	height: 100vh;
+	margin-left: 86px;
+	background: #fefefe;
+}
+div.template.view div.card {
+	width: 25%;
+	height: 200px;
+	background: grey;
+	display: inline-block;
+}
+div.template.view div.card.splash {
+	width: 100%;
+	height: 250px;
+	background: url("../assets/splash.jpg") no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: 0 -170px;
+}
+div.template.view div.card.splash div.summary {
+	position: absolute;
+	width: calc(100% - 40px);
+	height: 60px;
+	margin-top: 30px;
+	margin-left: 40px;
+	font-family: "Helvetica Neue",sans-serif;
+	font-size: 1.6em;
+	font-weight: 200;
+	color: #f3f3f3;
+	text-shadow: 0 1px 0 #333;
+	line-height: 60px;
+}
+div.template.view div.card.splash div.info {
+	position: absolute;
+	width: calc(100% - 40px);
+	height: 40px;
+	margin-top: 100px;
+	margin-left: 40px;
+	font-family: "Inconsolata", monospace;
+	font-size: 17px;
+	font-weight: 200;
+	line-height: 40px;
+	color: #eee;
+	text-shadow: 0 1px 0 #333;
+}
+div.template.view div.card.splash div.actions {
+	position: absolute;
+	width: calc(100% - 40px);
+	height: 80px;
+	margin-top: 150px;
+	margin-left: 40px;
+}
+div.template.view div.card.splash div.actions div.item {
+	margin-top: 10px;
+	position: absolute;
+	width: 170px;
+	height: 50px;
+	border-radius: 3px;
+	background: #03A9F4;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+	color: #f7f7f7;
+}
+div.template.view div.card.splash div.actions div.item:hover {
+	background: #2196F3;
+}
+div.template.view div.card.splash div.actions div.item:nth-child(2) {
+	margin-left: 200px;
+}
+
+
