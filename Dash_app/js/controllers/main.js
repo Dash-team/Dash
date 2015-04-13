@@ -19,4 +19,8 @@ app.config(function($routeProvider) {
 		templateUrl: "../views/rem.html",
 		controller: "reminderController"
 	});
+	$routeProvider.when("/login", {
+		templateUrl: "../views/login.html",
+		controller: "loginController"
+	});
 });
