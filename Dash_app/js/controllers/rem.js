@@ -15,9 +15,11 @@ app.controller("reminderController",function($scope) {
 	}
 	$scope.edit = function ($index) {
 		alertify.prompt("edit to ...", function (e, str) {
-   		if (e) {
-   			$scope.reminders[$index] = str;
-    	} 
+   			if (e) {
+   				$scope.reminders[$index] = str;
+   				//refreshes view
+   				$scope.$apply();
+    		} 
 		}, $scope.reminders[$index]);
 	}
 });
