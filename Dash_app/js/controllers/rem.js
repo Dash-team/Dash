@@ -1,6 +1,6 @@
-app.controller("reminderController",function($scope) {
+app.controller("reminderController",["$scope","$rootScope",function($scope,$rootScope) {
 	$scope.reValue = "";
-	$scope.reminders = ["do math homework", "write journal", "computer science investigation"];
+	$scope.reminders = $rootScope.reminders;
 	var reminder = new noca();
 	$scope.handle = function(event) {
 		if (event.keyCode == 13) {
@@ -11,7 +11,7 @@ app.controller("reminderController",function($scope) {
 		}
 	}
 	$scope.click = function ($index) {
-		$scope.reminders.splice($index);
+		$scope.reminders.splice($index,1);
 	}
 	$scope.edit = function ($index) {
 		alertify.prompt("Edit reminder", function (e, str) {
@@ -22,5 +22,4 @@ app.controller("reminderController",function($scope) {
     		} 
 		}, $scope.reminders[$index]);
 	}
-	$window.reminders = $scope.reminders;
-});
+}]);
