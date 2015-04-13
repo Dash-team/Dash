@@ -1,17 +1,15 @@
-app.controller("dashController",["$scope", function($scope) {
+app.controller("dashController",["$scope", "$window", function($scope, $window) {
 	$scope.subject = "Economics";
 	$scope.timeleft = "32 minutes";
 	$scope.noteCount = 17;
 	$scope.resourceCount = 63;
 	// reminder
 	$scope.reValue = "";
-	var reminder = new noca();
 	$scope.handle = function(event) {
 		if (event.keyCode == 13) {
 			event.preventDefault();
-			var uName = $scope.reValue.substring(0,5);
+			$window.reminders.push($scope.reValue);
 			alertify.success("added reminder: \"" + $scope.reValue + "\"");
-			reminder.update(uName, $scope.reValue);
 			$scope.reValue = "";
 		}
 	}

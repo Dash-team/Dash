@@ -22,4 +22,5 @@ app.controller("reminderController",function($scope) {
     		} 
 		}, $scope.reminders[$index]);
 	}
+	$window.reminders = $scope.reminders;
 });
