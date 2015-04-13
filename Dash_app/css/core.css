@@ -84,6 +84,9 @@ div.template.nav div.expanded div.options ul li.item {
 	color: #0074d1;
 	cursor: pointer;
 }
+div.template.nav div.expanded div.options a {
+	text-decoration: none;
+}
 div.template.nav div.expanded div.options ul li.item:after {
 	content: "";
 	position: absolute;

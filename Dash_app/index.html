@@ -20,7 +20,9 @@
 				</div>
 				<div class="options">
 					<ul ng-repeat="item in items">
-						<li class="item" data-link="{{item.link}}">{{item.display}}</li>
+						<a href="#/{{item.link}}" ng-click="toggle()">
+							<li class="item" data-link="{{item.link}}">{{item.display}}</li>
+						</a>
 					</ul>
 				</div>
 			</div>

@@ -7,7 +7,11 @@ app.config(function($routeProvider) {
 		templateUrl: "../views/das.html",
 		controller: "dashController"
 	});
-	$routeProvider.when("/reminder", {
+	$routeProvider.when("/das", {
+		templateUrl: "../views/das.html",
+		controller: "dashController"
+	});
+	$routeProvider.when("/rem", {
 		templateUrl: "../views/rem.html",
 		controller: "reminderController"
 	});
