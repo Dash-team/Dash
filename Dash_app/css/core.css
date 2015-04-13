@@ -38,6 +38,16 @@ div.template.nav div.minimized div.menu.icon {
 	line-height: 64px;
 	color: #333;
 }
+div.template.nav div.minimized div.copyright {
+	position: absolute;
+	width: 86px;
+	height: 50px;
+	margin-top: calc(100vh - 290px);
+	font-size: 23px;
+	line-height: 50px;
+	text-align: center;
+	color: #F2676F;
+}
 div.template.nav div.expanded {
 	position: absolute;
 	width: 300px;
@@ -239,7 +249,7 @@ div.template.view div.card.assessment {
 }
 #reminderView .item {
 	position: relative;
-	background:rgba(225,225,225,0.8);
+	background: rgba(220,220,220,1);
 	box-shadow: 0 1.5px 0 #808080;
 	width:70%;
 	height:40px;

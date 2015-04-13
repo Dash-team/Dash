@@ -14,7 +14,7 @@ app.controller("reminderController",function($scope) {
 		$scope.reminders.splice($index);
 	}
 	$scope.edit = function ($index) {
-		alertify.prompt("edit to ...", function (e, str) {
+		alertify.prompt("Edit reminder", function (e, str) {
    			if (e) {
    				$scope.reminders[$index] = str;
    				//refreshes view

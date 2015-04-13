@@ -14,6 +14,10 @@ app.controller("navController",["$scope", function($scope) {
 			$scope.expandedMenu.style.left = "86px";
 		}	
 	}
+	$scope.credit = function() {
+		$scope.toggle();
+		alertify.log("Made with ❤ and cookies by the Dash team");
+	}
 	$scope.items = [new globalMenuItem("dashboard"),
 					new globalMenuItem("resources"),
 					new globalMenuItem("calendar"),
