@@ -272,17 +272,23 @@ div.template.view div.card.assessment {
 	margin-right:30px;
 	margin-top:1.5px;
 	border:1px solid #808080;
-	border-radius: 3px
+	border-radius: 3px;
 }
 /*---------------------------log in--------------------------*/
 #loginView #loginCard {
-	width:60%;
+	width:20%;
 	height:300px;
-	margin-left:20%;
+	margin-left:40%;
 	margin-top:20vh;
+	text-align: center;
 }
-#loginView #loginButton {
-	outline:none;
-	border:none;
-	border-bottom:2px solid #03A9F4;
+#loginView label {
+	width:80%;
+	margin-left:10%;
+	text-align: center;
+	padding-top: 20px;
+	margin-bottom:20px;
+}
+#loginView #loginCard #loginButton {
+	margin-top:10px;
 }
