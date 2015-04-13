@@ -1,6 +1,6 @@
 <div id="reminderView" class="template view">
 	<input ng-Keypress="handle($event)" ng-model="reValue" id="reViewAdd" placeholder="remind me to ..."></input>
 	<div id="itemWrap">
-		<p class="item" ng-repeat="reItem in reminders">{{ reItem }} <span class="tickBox" ng-click="click($index)"></span> </p>
+		<p class="item" ng-repeat="reItem in reminders" ng-click="edit($index)">{{ reItem }} <span class="tickBox" ng-click="click($index)"></span> </p>
 	</div>
 </div>

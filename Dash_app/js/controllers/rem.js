@@ -11,6 +11,13 @@ app.controller("reminderController",function($scope) {
 		}
 	}
 	$scope.click = function ($index) {
-		$scope.reminders.splice($index, 1);
+		$scope.reminders.splice($index);
+	}
+	$scope.edit = function ($index) {
+		alertify.prompt("edit to ...", function (e, str) {
+   		if (e) {
+   			$scope.reminders[$index] = str;
+    	} 
+		}, $scope.reminders[$index]);
 	}
 });

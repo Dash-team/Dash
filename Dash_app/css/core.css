@@ -209,34 +209,35 @@ div.template.view div.card.assessment {
 	margin-left: 40%;
 }
 /* --------------------------------reminder view-------------------------------- */
-::-webkit-input-placeholder { color:#fff; }
+::-webkit-input-placeholder { color:rgba(200,200,200,0.5);; }
 #reminderView {
 	position: absolute;
 	margin-left:0;
+	background:url("../assets/reminderBackground.jpg") no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+
 }
 #reViewAdd {
 	position:absolute;
-	width:90%;
-	height:60px;
+	width:100%;
+	height:80px;
 	outline:none;
 	border:none;
-	background:#68E59F;
+	background:rgba(200,200,200,0.3);
 	font-family: Georgia,Calibri,"Raleway";
 	font-style: italic;
 	font-size: 18px;
 	overflow-x:hidden;
 	overflow-y:auto;
 	padding:10px;
+	padding-left: 30px;
 	color:white;
-	margin-left:5%;
-	margin-top:20px;
-	border-radius:3px;
-	box-shadow: 0 1.5px 0 #35B26C;
 }
 #reminderView .item {
 	position: relative;
-	background:#F5F7FA;
-	box-shadow: 0 1.5px 0 #CCD1D9;
+	background:rgba(225,225,225,0.8);
+	box-shadow: 0 1.5px 0 #808080;
 	width:70%;
 	height:40px;
 	font-size:18px;
@@ -246,6 +247,7 @@ div.template.view div.card.assessment {
 	padding:10px;
 	padding-left:20px;
 	border-radius:3px;
+	overflow: hidden;
 }
 #reminderView #itemWrap {
 	margin-top:120px;
@@ -256,6 +258,6 @@ div.template.view div.card.assessment {
 	float:right;
 	margin-right:30px;
 	margin-top:1.5px;
-	border:1px solid #aaa;
+	border:1px solid #808080;
 	border-radius: 3px
 }
