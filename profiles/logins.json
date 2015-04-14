@@ -1,0 +1,17 @@
+{
+	"kevin": {
+		"fullName": "Kevin Reyes",
+		"password": "kevin",
+		"reminders": ["computer science investigation", "ask mom for food", "revise for math test", "have dinner"]
+	},
+	"laura": {
+		"fullName": "Laura Ipsum",
+		"password": "larua",
+		"reminders": ["make toilet paper app", "research pervasive games", "do your econ homework"]
+	},
+	"romeo": {
+		"fullName": "Romeo Juliet",
+		"password": "romeo", 
+		"reminders": ["go get Juliet", "unkill Mercutio"]
+	}
+}
