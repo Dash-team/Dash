@@ -9,7 +9,7 @@ app.controller("dashController",["$scope","$rootScope", function($scope, $rootSc
 		if (event.keyCode == 13) {
 			event.preventDefault();
 			alertify.success("added reminder: \"" + $scope.reValue + "\"");
-			$rootScope.reminders.push($scope.reValue);
+			$rootScope.user.reminders.push($scope.reValue);
 			console.log($rootScope.reminders);
 			$scope.reValue = "";
 		}
