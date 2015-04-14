@@ -341,7 +341,11 @@ div.template.view div.card.assessment {
 }
 .assessmentName {
 	font-family:"Raleway", Calibri;
-	color:#f3f3f3;
+	color:#f5f5f5;
+}
+.assessmentDate {
+	font-size: 16px;
+	color: #dac742;
 }
 .progressBar {
 	width:90%;
@@ -351,7 +355,7 @@ div.template.view div.card.assessment {
 	border:none;
 	outline:none;
 }
-#assessmentc2 {
+.assessmentContainer:nth-child(2) {
 	border: none;
 	margin-top:160px;
 }

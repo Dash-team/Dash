@@ -6,11 +6,16 @@ app.run(['$rootScope', function($rootScope){
 	$rootScope.user = {};
 	$rootScope.user.assessments = [
 			{
-				"name": "math investigation",
+				"name": "Math investigation",
 				"progress": 40,
 				"dueDate": "24/3/2015"
+			},
+			{
+				"name": "Accounting test",
+				"progress": 72,
+				"dueDate": "19/3/2015"
 			}
-		] ;
+		];
 }]);
 
 app.config(function($routeProvider) {

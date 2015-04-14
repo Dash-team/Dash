@@ -5,9 +5,14 @@
 		"reminders": ["computer science investigation", "ask mom for food", "revise for math test", "have dinner"],
 		"assessments": [
 			{
-				"name": "math investigation",
+				"name": "Math investigation",
 				"progress": 40,
 				"dueDate": "24/3/2015"
+			},
+			{
+				"name": "Accounting test",
+				"progress": 72,
+				"dueDate": "19/3/2015"
 			}
 		] 
 	},
@@ -17,9 +22,14 @@
 		"reminders": ["make toilet paper app", "research pervasive games", "do your econ homework"],
 		"assessments": [
 			{
-				"name": "math investigation",
+				"name": "Math investigation",
 				"progress": 40,
 				"dueDate": "24/3/2015"
+			},
+			{
+				"name": "Accounting test",
+				"progress": 72,
+				"dueDate": "19/3/2015"
 			}
 		] 
 	},
@@ -29,9 +39,14 @@
 		"reminders": ["go get Juliet", "unkill Mercutio"],
 		"assessments": [
 			{
-				"name": "math investigation",
+				"name": "Math investigation",
 				"progress": 40,
 				"dueDate": "24/3/2015"
+			},
+			{
+				"name": "Accounting test",
+				"progress": 72,
+				"dueDate": "19/3/2015"
 			}
 		] 
 	}

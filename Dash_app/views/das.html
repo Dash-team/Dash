@@ -23,12 +23,8 @@
 </div>
 <div class="card assessment">
 	<div class="assessmentContainer" ng-repeat="item in assessments | limitTo: 2">
-		<h5 class="assessmentName"> {{ item.name }} </h5>
-		<progress value="0.3" class="progressBar"></progress>
-	</div>
-	<div class="assessmentContainer" ng-repeat="item in assessments | limitTo: 2" id="assessmentc2">
-		<h5 class="assessmentName"> {{ item.name }} </h5>
-		<progress value="0.3" class="progressBar"></progress>
+		<h5 class="assessmentName"> {{ item.name }} &nbsp;&nbsp;<span class="assessmentDate">( {{item.dueDate}} )</span></h5>
+		<progress value="{{item.progress/100}}" class="progressBar"></progress>
 	</div>
 </div>
 <div id="res"></div>
