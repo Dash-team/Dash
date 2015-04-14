@@ -18,7 +18,7 @@
 	},
 	"laura": {
 		"fullName": "Laura Ipsum",
-		"password": "larua",
+		"password": "laura",
 		"reminders": ["make toilet paper app", "research pervasive games", "do your econ homework"],
 		"assessments": [
 			{
