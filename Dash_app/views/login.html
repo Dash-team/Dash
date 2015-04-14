@@ -1,8 +1,12 @@
 <div id="loginView">
 	<form id="loginCard">
-		<label id"loginText">Log in to your account</label>
+		<h3 id"loginText">Welcome</h3>
 		<input type="text" placeholder="username" ng-model="username">
 		<input type="password" placeholder="password" ng-model="password">
 		<input type="submit" id="loginButton" class="button-primary" ng-click="auth()" value="Log in">
 	</form>
+	<div class="loading" id="loadingScreen">
+		<h3>Welcome back,</h3>
+		<p>just a moment while we transport our magic!</p>
+	</div>
 </div>

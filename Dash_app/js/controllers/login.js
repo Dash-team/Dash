@@ -1,8 +1,14 @@
 app.controller("loginController", ["$scope","$http","$rootScope", function($scope,$http,$rootScope) {
+	document.querySelector("div.template.nav").setAttribute("class","template nav");
 	$scope.username = "";
 	$scope.password = "";
 	$scope.auth = function() {
-		$http.get("/auth/"+$scope.username)
+		var loadingScreen = document.getElementById('loadingScreen');
+		loadingScreen.style.opacity = 1;
+		loadingScreen.style.zIndex = 999;
+		loadingScreen.style.marginTop = 0;
+
+		$http.get("/auth/"+$scope.username+"/"+$scope.password)
 			.success(function(data,status,header,config) {
 				alertify.success("Logged in successful as "+$scope.username);
 				$rootScope.user = data;
@@ -11,6 +17,9 @@ app.controller("loginController", ["$scope","$http","$rootScope", function($scop
 			})
 			.error(function(data,status,header,config) {
 				alertify.error(status+": "+data);
+				loadingScreen.style.opacity = 0;
+				loadingScreen.style.zIndex = 500;
+				loadingScreen.style.marginTop = "20%";
 			});
 	}
 }]);
