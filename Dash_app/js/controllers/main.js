@@ -32,7 +32,7 @@ app.config(function($routeProvider) {
 		controller: "reminderController"
 	});
 	$routeProvider.otherwise({
-		redirectTo: "../views/login.html"
+		redirectTo: "/"
 	});
 	$routeProvider.when("/opt", {
 		templateUrl: "../views/opt.html",
