@@ -22,7 +22,10 @@
 	<p class="percentage">79%</p> 
 </div>
 <div class="card assessment">
-	assessments
+	<div class="assessmentContainer" ng-repeat="item in assessments | limitTo: 2">
+		<h5 class="assessmentName"> {{ item.name }} </h5>
+		<progress value="0.3" class="progressBar"></progress>
+	</div>
 </div>
 <div id="res"></div>
 <div id="cal"></div>

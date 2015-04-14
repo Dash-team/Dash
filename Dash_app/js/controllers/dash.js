@@ -14,4 +14,5 @@ app.controller("dashController",["$scope","$rootScope", function($scope, $rootSc
 			$scope.reValue = "";
 		}
 	}
+	$scope.assessments = $rootScope.user.assessments;
 }]);

@@ -321,3 +321,27 @@ div.template.view div.card.assessment {
 #loginView #loginCard #loginButton {
 	margin-top:10px;
 }
+/*---------------------------assessment-----------------------*/
+.assessmentContainer {
+	position: absolute;
+	width:48%;
+	height:120px;
+	border-bottom:1.5px dashed #dac742;
+	margin-top:20px;
+	margin-left:7%;	
+	border-radius: 3px;
+	text-align: left;
+}
+.assessmentName {
+	font-family:"Raleway", Calibri;
+	color:#f3f3f3;
+
+}
+.progressBar {
+	width:90%;
+	height:5px;
+	margin-left:5%;
+	margin-top:10px;
+	border:none;
+	outline:none;
+}

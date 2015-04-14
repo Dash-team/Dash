@@ -2,16 +2,37 @@
 	"kevin": {
 		"fullName": "Kevin Reyes",
 		"password": "kevin",
-		"reminders": ["computer science investigation", "ask mom for food", "revise for math test", "have dinner"]
+		"reminders": ["computer science investigation", "ask mom for food", "revise for math test", "have dinner"],
+		"assessments": [
+			{
+				"name": "math investigation",
+				"progress": 40,
+				"dueDate": "24/3/2015"
+			}
+		] 
 	},
 	"laura": {
 		"fullName": "Laura Ipsum",
 		"password": "larua",
-		"reminders": ["make toilet paper app", "research pervasive games", "do your econ homework"]
+		"reminders": ["make toilet paper app", "research pervasive games", "do your econ homework"],
+		"assessments": [
+			{
+				"name": "math investigation",
+				"progress": 40,
+				"dueDate": "24/3/2015"
+			}
+		] 
 	},
 	"romeo": {
 		"fullName": "Romeo Juliet",
 		"password": "romeo", 
-		"reminders": ["go get Juliet", "unkill Mercutio"]
+		"reminders": ["go get Juliet", "unkill Mercutio"],
+		"assessments": [
+			{
+				"name": "math investigation",
+				"progress": 40,
+				"dueDate": "24/3/2015"
+			}
+		] 
 	}
 }
