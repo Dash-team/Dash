@@ -9,6 +9,13 @@ div.template.nav {
 	bottom: 0;
 	left: 0;
 	background: #f7f7f7;
+	margin-left: -86px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+div.template.nav.active {
+	margin-left: 0;
 }
 div.template.nav div.minimized {
 	position: absolute;
@@ -196,7 +203,7 @@ div.template.view div.card.reminder textarea {
 	font-size: 18px;
 	overflow-x:hidden;
 	overflow-y:auto;
-	border-left: 5px solid #03a9f4;
+	border-left: 3px solid #03a9f4;
 	border-radius:0px;
 	word-wrap: normal;
 	background: #f7f7f7;
@@ -335,7 +342,6 @@ div.template.view div.card.assessment {
 .assessmentName {
 	font-family:"Raleway", Calibri;
 	color:#f3f3f3;
-
 }
 .progressBar {
 	width:90%;
@@ -348,4 +354,29 @@ div.template.view div.card.assessment {
 #assessmentc2 {
 	border: none;
 	margin-top:160px;
+}
+/*-----------------------------------option-------------------------*/
+.optSection {
+	position: relative;
+	width:70%;
+	margin-left:15%;
+	margin-top:20px;
+}
+.sectionName {
+	margin-top:30px;
+	border-bottom:1.5px solid rgba(128, 128, 128, 0.7);
+	padding-bottom:20px;
+}
+.sectionItem {
+	list-style: none;
+	width:100%;
+	height:50px;
+	margin-top:10px;
+	border-radius:3px;
+	line-height: 50px;
+	font-size: 20px;
+}
+.sectionItem .optButton {
+	float:right;
+	border:none;
 }

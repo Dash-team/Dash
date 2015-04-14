@@ -21,7 +21,7 @@ app.controller("navController",["$scope", function($scope) {
 	$scope.items = [new globalMenuItem("dashboard"),
 					new globalMenuItem("resources"),
 					new globalMenuItem("calendar"),
-					new globalMenuItem("options"),
-					new globalMenuItem("reminder")
+					new globalMenuItem("reminders"),
+					new globalMenuItem("options")
 					];
 }]);

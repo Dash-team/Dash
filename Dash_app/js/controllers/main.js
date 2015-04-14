@@ -29,4 +29,8 @@ app.config(function($routeProvider) {
 	$routeProvider.otherwise({
 		redirectTo: "../views/login.html"
 	});
+	$routeProvider.when("/opt", {
+		templateUrl: "../views/opt.html",
+		controller: "optionController"
+	});
 });

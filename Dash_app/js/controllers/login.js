@@ -6,6 +6,7 @@ app.controller("loginController", ["$scope","$http","$rootScope", function($scop
 			.success(function(data,status,header,config) {
 				alertify.success("Logged in successful as "+$scope.username);
 				$rootScope.user = data;
+				document.querySelector("div.template.nav").setAttribute("class","template nav active");
 				window.location.hash = "das";
 			})
 			.error(function(data,status,header,config) {
