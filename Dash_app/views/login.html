@@ -1,8 +1,8 @@
 <div id="loginView">
 	<div id="loginCard">
 		<label id"loginText">Log in to your account</label>
-		<input type="text" placeholder="username">
-		<input type="text" placeholder="password">
-		<button id="loginButton" class="button-primary">Log in</button>
+		<input type="text" placeholder="username" ng-model="username">
+		<input type="text" placeholder="password" ng-model="password">
+		<button id="loginButton" class="button-primary" ng-click="auth()">Log in</button>
 	</div>
 </div>

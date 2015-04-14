@@ -4,12 +4,13 @@ app.filter('unsafe', function($sce) { return $sce.trustAsHtml; });
 
 app.run(['$rootScope', function($rootScope){
     $rootScope.reminders = ["do math homework", "write journal", "computer science investigation"];
+    $rootScope.user = {};
 }]);
 
 app.config(function($routeProvider) {
 	$routeProvider.when("/", {
-		templateUrl: "../views/das.html",
-		controller: "dashController"
+		templateUrl: "../views/login.html",
+		controller: "loginController"
 	});
 	$routeProvider.when("/das", {
 		templateUrl: "../views/das.html",
@@ -19,8 +20,7 @@ app.config(function($routeProvider) {
 		templateUrl: "../views/rem.html",
 		controller: "reminderController"
 	});
-	$routeProvider.when("/login", {
-		templateUrl: "../views/login.html",
-		controller: "loginController"
+	$routeProvider.otherwise({
+		redirectTo: "../views/login.html"
 	});
 });
