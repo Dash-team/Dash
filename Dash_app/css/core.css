@@ -127,6 +127,71 @@ div.template.view {
 	overflow-x: hidden;
 	overflow-y: auto;
 }
+/*-----------------------------------dash-------------------------*/
+/*Greet*/
+div.greet {
+	height: 150px;
+	background: #f9f9f9;
+}
+div.greet h3 {
+	position: absolute;
+	margin-top: 35px;
+	margin-left: 45px;
+	color: #5394ff;
+}
+div.greet p {
+	position: relative;
+	margin-top: 65px;
+	margin-left: 45px;
+	color: #888;
+}
+/*Subjects*/
+div.subjects {
+	width: 100%;
+	height: 100px;
+	background: #f9f9f9;
+}
+div.subjects ul {
+	width: 100%;
+	height: 100px;
+}
+div.subjects ul li {
+	display: inline-block;
+	width: 220px;
+	height: 50px;
+	margin-top: 25px;
+	margin-left: 45px;
+	background: #f3f3f3;
+	box-shadow: 0 2px 0 #f1f1f1;
+	cursor: pointer;
+}
+div.subjects ul li span {
+	position: absolute;
+	display: block;
+	width: 14px;
+	height: 14px;
+	margin-left: 18px;
+	margin-top: 16px;
+	border: 2px solid #f3f3f3;
+	border-radius: 100%;
+	background: #FCE964;
+}
+div.subjects ul li p {
+	position: absolute;
+	width: 150px;
+	overflow: hidden;
+	margin-left: 50px;
+	padding-left: 10px;
+	font-size: 18px;
+	line-height: 50px;
+}
+div.subjects p.error {
+	margin-left: 45px;
+	color: #888;
+	font-style: italic;
+}
+
+/*Old*/
 div.template.view div.card.splash {
 	width: 100%;
 	height: 250px;

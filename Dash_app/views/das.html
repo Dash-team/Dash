@@ -1,4 +1,20 @@
-<div class="card splash">
+<div class="greet">
+	<h3>Hello, {{user.fullName}}</h3>
+	<br><p>{{status}}</p>
+</div>
+<div class="subjects">
+	<p ng-show="!user.subjects.length" class="error">
+		Looks like you are not enrolled in any courses
+		<br>Please contact technical support for more information
+	</p>
+	<ul>
+		<li ng-repeat="item in user.subjects | limitTo: 4">
+			<span class="colorCode" ng-style="{ background: colorOf($index) }"></span>
+			<p class="name">{{item.name}}</p>
+		</li>
+	</ul>
+</div>
+<!-- <div class="card splash">
 	<div class="summary">
 		{{subject}} starting in {{timeleft}}
 	</div>
@@ -26,8 +42,4 @@
 		<h5 class="assessmentName"> {{ item.name }} &nbsp;&nbsp;<span class="assessmentDate">( {{item.dueDate}} )</span></h5>
 		<progress value="{{item.progress/100}}" class="progressBar"></progress>
 	</div>
-</div>
-<div id="res"></div>
-<div id="cal"></div>
-<div id="opt"></div>
-<div id="rem"></div>
+</div> -->
