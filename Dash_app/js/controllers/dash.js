@@ -19,5 +19,4 @@ app.controller("dashController",["$scope","$rootScope", function($scope, $rootSc
 	$scope.colorOf = function(index) {
 		return $scope.user.subjects[index].color;
 	}
-	$scope.assessments = $rootScope.user.assessments;
 }]);
