@@ -17,6 +17,7 @@ app.controller("navController",["$scope", function($scope) {
 	$scope.credit = function() {
 		$scope.toggle();
 		alertify.log("Made with ❤ and cookies - Dash team");
+		mixpanel.track("Credit");
 	}
 	$scope.items = [new globalMenuItem("dashboard"),
 					new globalMenuItem("resources"),
@@ -24,4 +25,7 @@ app.controller("navController",["$scope", function($scope) {
 					new globalMenuItem("reminders"),
 					new globalMenuItem("options")
 					];
+	$scope.mixpanelAction = function(index) {
+		mixpanel.track("Nav clicked:"+$scope.items[index].display);
+	}
 }]);

@@ -13,6 +13,13 @@ app.controller("loginController", ["$scope","$http","$rootScope", function($scop
 				alertify.success("Logged in successful as "+$scope.username);
 				$rootScope.user = data;
 				document.querySelector("div.template.nav").setAttribute("class","template nav active");
+				//mixpanel
+				mixpanel.identify(data.fullName);
+				mixpanel.people.set({
+					"$name": data.fullName,
+					"lastLogin": new Date()
+				});
+
 				window.location.hash = "das";
 			})
 			.error(function(data,status,header,config) {
