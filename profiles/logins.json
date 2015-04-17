@@ -1,6 +1,7 @@
 {
 	"kevin": {
 		"fullName": "Kevin Reyes",
+		"username": "kevin",
 		"password": "kevin",
 		"reminders": ["computer science investigation", "ask mom for food", "revise for math test", "have dinner"],
 		"assessments": [
@@ -36,6 +37,7 @@
 	},
 	"laura": {
 		"fullName": "Laura Ipsum",
+		"username": "laura",
 		"password": "laura",
 		"reminders": ["make toilet paper app", "research pervasive games", "do your econ homework"],
 		"assessments": [
@@ -54,6 +56,7 @@
 	"romeo": {
 		"fullName": "Romeo Juliet",
 		"password": "romeo", 
+		"username": "romeo",
 		"reminders": ["go get Juliet", "unkill Mercutio"],
 		"assessments": [
 			{

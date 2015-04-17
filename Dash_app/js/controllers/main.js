@@ -5,6 +5,7 @@ app.filter('unsafe', function($sce) { return $sce.trustAsHtml; });
 app.run(['$rootScope', function($rootScope){
 	$rootScope.user = {
 		"fullName": "Kevin Reyes",
+		"username": "kevin",
 		"password": "kevin",
 		"reminders": ["computer science investigation", "ask mom for food", "revise for math test", "have dinner"],
 		"assessments": [

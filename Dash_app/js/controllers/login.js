@@ -8,8 +8,8 @@ app.controller("loginController", ["$scope","$http","$rootScope", function($scop
 		loadingScreen.style.zIndex = 999;
 		loadingScreen.style.marginTop = 0;
 
-		$http.get("/auth/"+$scope.username+"/"+$scope.password)
-			.success(function(data,status,header,config) {
+		$http.get("/auth/in/"+$scope.username+"/"+$scope.password)
+		.success(function(data,status,header,config) {
 				alertify.success("Logged in successful as "+$scope.username);
 				$rootScope.user = data;
 				document.querySelector("div.template.nav").setAttribute("class","template nav active");
