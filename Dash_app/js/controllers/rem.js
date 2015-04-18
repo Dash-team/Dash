@@ -1,7 +1,6 @@
 app.controller("reminderController",["$scope","$rootScope",function($scope,$rootScope) {
 	$scope.reValue = "";
 	$scope.reminders = $rootScope.user.reminders;
-	var reminder = new noca();
 	$scope.handle = function(event) {
 		if (event.keyCode == 13) {
 			event.preventDefault();

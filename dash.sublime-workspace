@@ -1,0 +1,673 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"login",
+				"loginScreen"
+			],
+			[
+				"slide",
+				"slideOutLeft"
+			],
+			[
+				"reminder",
+				"reminderController"
+			],
+			[
+				"modul",
+				"moduleList"
+			],
+			[
+				"mo",
+				"moduleList"
+			],
+			[
+				"modu",
+				"moduleList"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"data",
+				"databases"
+			],
+			[
+				"d",
+				"databases"
+			],
+			[
+				"pro",
+				"progressDoneElem"
+			],
+			[
+				"progress",
+				"progressElem"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"exp",
+				"expandedMenu"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"new",
+				"newProduct"
+			],
+			[
+				"appl",
+				"appleStock"
+			],
+			[
+				"inve",
+				"inventoryCount"
+			],
+			[
+				"prod",
+				"productPrice"
+			],
+			[
+				"produc",
+				"productName"
+			],
+			[
+				"he",
+				"helvetica"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"backgrou",
+				"background-image"
+			],
+			[
+				"pr",
+				"println"
+			],
+			[
+				"done",
+				"doneToRepeat"
+			],
+			[
+				"time",
+				"timeElem"
+			],
+			[
+				"inc",
+				"increment"
+			],
+			[
+				"in",
+				"increment"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"requ",
+				"require"
+			],
+			[
+				"cli",
+				"clientCount"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Dash_app/views/login.html",
+			"settings":
+			{
+				"buffer_size": 451,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Dash_app/index.html",
+			"settings":
+			{
+				"buffer_size": 2912,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Dash_app/js/controllers/login.js",
+			"settings":
+			{
+				"buffer_size": 1131,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Dash_app/js/controllers/nav.js",
+			"settings":
+			{
+				"buffer_size": 960,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 316.0,
+		"last_filter": "js",
+		"selected_items":
+		[
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			]
+		],
+		"width": 543.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/minhle/Desktop/dev/dash",
+		"/Users/minhle/Desktop/dev/dash/Dash_app",
+		"/Users/minhle/Desktop/dev/dash/Dash_app/js",
+		"/Users/minhle/Desktop/dev/dash/profiles"
+	],
+	"file_history":
+	[
+		"/Users/minhle/Desktop/dev/dash/server.js",
+		"/Users/minhle/Desktop/dev/dash/profiles/logins.json",
+		"/Users/minhle/Desktop/dev/dash/Dash_app/js/controllers/option.js",
+		"/Users/minhle/Desktop/dev/dash/Dash_app/js/controllers/login.js",
+		"/Users/minhle/Desktop/dev/dash/Dash_app/js/controllers/main.js",
+		"/Users/minhle/Desktop/dev/dash/login/core.css",
+		"/Users/minhle/Desktop/dev/dash/app/js/controllers/main.js",
+		"/Users/minhle/Desktop/dev/dash/login/index.html",
+		"/Users/minhle/Desktop/dev/dash/app/index.html",
+		"/Users/minhle/Desktop/dev/dash/Dash_app/css/core.css",
+		"/Users/minhle/Desktop/dev/dash/Dash_app/js/controllers/dash.js",
+		"/Users/minhle/Desktop/dev/dash/Dash_app/views/das.html",
+		"/Users/minhle/Desktop/dev/dash/Dash_app/views/login.html",
+		"/Users/minhle/Desktop/dev/dash/Dash_app/index.html",
+		"/Users/minhle/Desktop/dev/dash/Dash_app/js/angular-route.js",
+		"/Users/minhle/Desktop/dev/dash/Dash_app/js/angular.js",
+		"/Users/minhle/Desktop/dev/dash/Dash_app/js/controllers/rem.js",
+		"/Users/minhle/Desktop/dev/dash/Dash_app/views/rem.html",
+		"/Users/minhle/Desktop/dev/dash/Dash_app/js/controllers/nav.js",
+		"/Users/minhle/Desktop/dev/dash/Dash_app/css/alertify.default.css",
+		"/Users/minhle/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/minhle/Desktop/dev/dash/Dash_app/js/main.js",
+		"/Users/minhle/Desktop/dev/Dash/Dash_app/views/das.html",
+		"/Users/minhle/Desktop/dev/Dash/Dash_app/js/controllers/nav.js",
+		"/Users/minhle/Desktop/dev/Dash/Dash_app/js/models.js",
+		"/Users/minhle/Desktop/dev/Dash/Dash_app/css/core.css",
+		"/Users/minhle/Desktop/dev/Dash/Dash_app/js/angular-route.js",
+		"/Users/minhle/Desktop/dev/Dash/Dash_app/css/angular-route.js",
+		"/Users/minhle/Desktop/dev/Dash/Dash_app/js/controllers/dash.js",
+		"/Users/minhle/Desktop/dev/Dash/Dash_app/js/nav.js",
+		"/Users/minhle/Desktop/dev/Dash/Dash_app/js/timetable.js",
+		"/Users/minhle/Desktop/dev/Dash/Dash_app/index.html",
+		"/Users/minhle/Desktop/dev/Dash/Procfile",
+		"/Users/minhle/Desktop/index.html",
+		"/Users/minhle/.Trash/Dash with reminder/Dash_app/index.html",
+		"/Users/minhle/Desktop/dev/Dash/Dash_app/js/entry.js",
+		"/Users/minhle/com.google.android.android/manifest.json",
+		"/Users/minhle/Desktop/dev/Dash/Dash_app/js/components.js",
+		"/Users/minhle/Desktop/dev/Dash landing page/index.html",
+		"/Users/minhle/Desktop/dev/Dash/Dash_app/js/script.js",
+		"/Users/minhle/Desktop/dev/Dash/server.js",
+		"/Users/minhle/Desktop/dev/Dash/package.json",
+		"/Users/minhle/Desktop/dev/Dash landing page/css/core.css",
+		"/Users/minhle/Desktop/dev/Dash landing page/particles.js",
+		"/Users/minhle/Desktop/dev/Dash landing page/assets/splash.jpg",
+		"/Users/minhle/Desktop/com.snapchat.android.android/_locales/en/messages.json",
+		"/Users/minhle/Desktop/dev/dbjs/index.html",
+		"/Users/minhle/Desktop/dev/dbjs/script.js",
+		"/Users/minhle/Desktop/dev/dbjs/db.js",
+		"/Users/minhle/Desktop/dev/App template/js/script.js",
+		"/Users/minhle/Desktop/dev/App template/css/core.css",
+		"/Users/minhle/Desktop/dev/App template/index.html",
+		"/Users/minhle/Desktop/dev/App template/config.js",
+		"/Users/minhle/Desktop/dev/App template/js/models.js",
+		"/Users/minhle/Desktop/dev/uproar/js/core.js",
+		"/Users/minhle/Desktop/dev/Tempus/css/core.css",
+		"/Users/minhle/Desktop/dev/Tempus/index.html",
+		"/Users/minhle/Desktop/dev/java/management/apple.java",
+		"/Users/minhle/Desktop/dev/java/newWindow.java",
+		"/Users/minhle/Desktop/dev/java/calc/entry.java",
+		"/Users/minhle/Desktop/dev/java/management/abstract.java",
+		"/Users/minhle/Desktop/dev/java/hello.java",
+		"/Users/minhle/Desktop/dev/java/calc/operations.java",
+		"/Users/minhle/Desktop/dev/Tempus/assets/logo-text.ai",
+		"/Users/minhle/Desktop/dev/Tempus/js/script.js",
+		"/Users/minhle/Desktop/dev/java/hello.class",
+		"/Users/minhle/Desktop/dev/java/calc.java",
+		"/Users/minhle/Desktop/hello.java",
+		"/Users/minhle/Desktop/dev/uproar/css/core.css",
+		"/Users/minhle/Desktop/dev/uproar/index.html",
+		"/Users/minhle/Desktop/dev/uproar/js/angular.touch.js",
+		"/Users/minhle/Desktop/dev/uproar/manifest.webapp",
+		"/Users/minhle/Desktop/dev/uproar/js/models.js",
+		"/Users/minhle/Desktop/dev/uproar/js/storage.js",
+		"/Users/minhle/Desktop/dev/uproar/assets/back.svg",
+		"/Users/minhle/Desktop/dev/uproar/assets/done.svg",
+		"/Users/minhle/Desktop/dev/uproar/js/api.js",
+		"/Users/minhle/Desktop/dev/uproar/js/angular-hammer.js",
+		"/Users/minhle/Desktop/dev/uproar/js/hammer.js",
+		"/Users/minhle/Desktop/dev/uproar/assets/next.svg",
+		"/Users/minhle/Desktop/dev/uproar/assets/close.svg",
+		"/Users/minhle/Desktop/dev/uproar/assets/settings.svg",
+		"/Users/minhle/Desktop/dev/uproar/assets/minus.svg",
+		"/Users/minhle/Desktop/dev/uproar/assets/plus.svg",
+		"/Users/minhle/Desktop/dev/uproar/assets/more.svg",
+		"/Users/minhle/Desktop/dev/uproar/assets/add.svg",
+		"/Users/minhle/Desktop/dev/uproar/pages/alarm.html",
+		"/Users/minhle/Desktop/dev/uproar/pages/notification.html",
+		"/Users/minhle/Desktop/dev/uproar/css/core.js",
+		"/Users/minhle/Desktop/dev/uproar/js/angular.js",
+		"/Users/minhle/Desktop/dev/CCv2/index.html",
+		"/Users/minhle/Desktop/dev/lean canvas/app.js",
+		"/Users/minhle/Desktop/dev/CCv2/css/core.css",
+		"/Users/minhle/Desktop/dev/lean canvas/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/src/ipaddr.coffee",
+		"/Users/minhle/Desktop/dev/lean canvas/.travis.yml",
+		"/Users/minhle/Desktop/dev/lean canvas/node_modules/supertest/lib/test.js",
+		"/Users/minhle/Desktop/dev/fnboard/node_modules/express/test.js",
+		"/Users/minhle/Desktop/dev/fnboard/client/index.html",
+		"/Users/minhle/Desktop/dev/lean canvas/public/index.html",
+		"/Users/minhle/Desktop/My Notes.enex",
+		"/Users/minhle/Desktop/dev/Grunter/App/script.js",
+		"/Users/minhle/Desktop/dev/lean canvas/public/js/lean.js",
+		"/Users/minhle/Desktop/dev/lean canvas/public/js/collab.js",
+		"/Users/minhle/Desktop/dev/lean canvas/tests/server.js",
+		"/Users/minhle/Desktop/dev/lean canvas/README.md",
+		"/Users/minhle/Desktop/dev/lean canvas/PRODUCTION/README.md",
+		"/Users/minhle/Desktop/dev/lean canvas/PRODUCTION/package.json",
+		"/Users/minhle/Desktop/dev/lean canvas/PRODUCTION/.travis.yml",
+		"/Users/minhle/Desktop/dev/lean canvas/PRODUCTION/tests/autopass.js",
+		"/Users/minhle/Desktop/dev/lean canvas/PRODUCTION/untitled folder/autopass.js"
+	],
+	"find":
+	{
+		"height": 54.0
+	},
+	"find_in_files":
+	{
+		"height": 154.0,
+		"where_history":
+		[
+			"/Users/minhle/Desktop/dev/dash/Dash_app/profiles",
+			"/Users/minhle/Desktop/dev/Tempus",
+			"/Users/minhle/Desktop/dev/fnboard/.c9revisions",
+			"/Users/minhle/Desktop/dev/fnboard/.c9"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"card",
+			".card",
+			"6",
+			"$",
+			".ready",
+			"extName",
+			"button",
+			"float",
+			"submit",
+			"show",
+			"querySelector",
+			"cursor: pointer",
+			"coffee",
+			"clients"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Dash_app/views/login.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 451,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								354,
+								354
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Dash_app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2912,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1253,
+								1253
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Dash_app/js/controllers/login.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1131,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								634,
+								634
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Dash_app/js/controllers/nav.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 960,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								627,
+								627
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 54.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "dash.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"nav",
+				"Dash_app/js/controllers/nav.js"
+			],
+			[
+				"main",
+				"Dash_app/js/controllers/main.js"
+			],
+			[
+				"l",
+				"profiles/logins.json"
+			],
+			[
+				"core",
+				"login/core.css"
+			],
+			[
+				"serv",
+				"server.js"
+			],
+			[
+				"login",
+				"Dash_app/js/controllers/login.js"
+			],
+			[
+				"logi",
+				"Dash_app/views/login.html"
+			],
+			[
+				"log",
+				"profiles/logins.json"
+			],
+			[
+				"logins",
+				"profiles/logins.json"
+			],
+			[
+				"das.",
+				"Dash_app/views/das.html"
+			],
+			[
+				"das",
+				"Dash_app/js/controllers/dash.js"
+			],
+			[
+				"index",
+				"Dash_app/index.html"
+			],
+			[
+				"m",
+				"Dash_app/js/controllers/main.js"
+			],
+			[
+				"",
+				"Dash_app/css/core.css"
+			],
+			[
+				"das.ht",
+				"Dash_app/views/das.html"
+			],
+			[
+				"dash",
+				"Dash_app/js/controllers/dash.js"
+			],
+			[
+				"alertif",
+				"Dash_app/css/alertify.default.css"
+			],
+			[
+				"core.cs",
+				"Dash_app/css/core.css"
+			],
+			[
+				".coffee",
+				"lean canvas/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/src/ipaddr.coffee"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 268.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
