@@ -27,6 +27,10 @@ app.config(function($routeProvider) {
 		templateUrl: "../views/opt.html",
 		controller: "optionController"
 	});
+	$routeProvider.when("/cal", {
+		templateUrl: "../views/cal.html",
+		controller: "calendarController"
+	});
 	$routeProvider.otherwise({
 		redirectTo: "/"
 	});
