@@ -1,3 +1,3 @@
-app.controller("calendarController",["$rootscope", "$scope", function($rootscope, $scope) {
-	
+app.controller("calendarController",["$scope", function($rootscope, $scope) {
+
 }]);
