@@ -51,7 +51,21 @@
 				"progress": 72,
 				"dueDate": "19/3/2015"
 			}
-		] 
+		], 
+		"subjects": [
+			{
+				"name":"Math",
+				"color": "#5394ff"
+			},
+			{
+				"name":"Physics",
+				"color":"#F2676F"
+			},
+			{
+				"name":"Economics",
+				"color":"#68E59F"
+			}
+		]
 	},
 	"romeo": {
 		"fullName": "Romeo Juliet",
