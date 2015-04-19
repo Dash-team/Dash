@@ -492,6 +492,8 @@ div#loginView #loginCard input {
 	font-size: 20px;
 }
 .sectionItem .optButton {
-	float:right;
 	border:none;
+}
+.sectionItem .optAction {
+	float:right;
 }

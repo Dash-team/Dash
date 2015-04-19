@@ -4,13 +4,46 @@
 		<ul>
 			<li class="sectionItem">
 				User: &nbsp;&nbsp;&nbsp;&nbsp;<em>{{ name }}</em>
-				<button class="button-primary optButton" ng-click="logout()">log out</button>
+				<button class="button-primary optButton optAction" ng-click="logout()">log out</button>
 			</li>
 		</ul>
 		<h4 class="sectionName">Intergration</h4>
 		<ul>
 			<li class="sectionItem">
-				
+				Reminders
+				<select class="optAction">
+					<option value="--" selected="true">--</option>
+					<option value="todoist">Todoist</option>
+					<option value="remindur">Remindur</option>
+					<option value="anydo">Any.do</option>
+					<option value="none" disabled="true">More coming soon</option>
+				</select>
+			</li>
+			<li class="sectionItem">
+				Calendar
+				<select class="optAction">
+					<option value="--" selected="true">--</option>
+					<option value="gcal">Google calendar</option>
+					<option value="none" disabled="true">More coming soon</option>
+				</select>
+			</li>
+			<li class="sectionItem">
+				Resources
+				<select class="optAction">
+					<option value="--" selected="true">--</option>
+					<option value="onenote">One note</option>
+					<option value="evernote">Evernote</option>
+					<option value="none" disabled="true">More coming soon</option>
+				</select>
+			</li>
+			<li class="sectionItem">
+				School intergration
+				<select class="optAction">
+					<option value="--" selected="true">--</option>
+					<option value="compass">Compass</option>
+					<option value="moodle">Moodle</option>
+					<option value="none" disabled="true">More coming soon</option>
+				</select>
 			</li>
 		</ul>
 	</div>
