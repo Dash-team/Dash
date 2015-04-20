@@ -14,7 +14,10 @@ app.get("/auth/in/:id/:pwd", function(req, res) {
 		if (err) throw err;
 		var logins = JSON.parse(data);
 		if (logins[username] && logins[username].password === password) {
-			res.json(logins[username]);
+			fs.readFile("profiles/" + logins[username].profile, function(error, info) {
+				var profile = JSON.parse(info);
+				res.json(profile);
+			});
 			console.log("AUTH ["+username+"] login successful");
 		} else {
 			res.status(401);

@@ -482,7 +482,7 @@ div#loginView #loginCard input {
 .sectionName {
 	position: relative;
 	margin-top:80px;
-	border-bottom:1.5px solid rgba(128, 128, 128, 0.7);
+	border-bottom:1.5px dashed rgba(128, 128, 128, 0.7);
 	padding-bottom:20px;
 }
 .sectionItem {
@@ -503,8 +503,7 @@ div#loginView #loginCard input {
 	position: relative;
 	float:right;
 }
-.sectionItem .tickBox {
-	position: relative;
+.sectionItem .displayTickBox {
 	outline:none;
 	width:20px;
 	height:20px;
@@ -512,7 +511,14 @@ div#loginView #loginCard input {
 	background: white;
 	border:none;
 }
+.sectionItem .tickBox {
+	outline:none;
+	width:20px;
+	height:20px;
+	background: white;
+	border:none;
+	margin-top:10px;
+}
 .sectionItem .tickBoxName {
-	position: relative;
 	margin-left: -30px;
 }
