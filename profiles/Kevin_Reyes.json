@@ -33,7 +33,7 @@
 	],
 	"options": {
 		"account": [false],
-		"intergration": ["none", "none", "none", "none"],
+		"intergration": ["none", "none", "evernote", "none"],
 		"display": [true, false, true, true, true]
 	}
 }
