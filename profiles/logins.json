@@ -9,10 +9,12 @@
 		"fullName": "Laura Ipsum",
 		"username": "laura",
 		"password": "laura",
+		"profile": "Laura_Ipsum.json"
 	},
 	"romeo": {
 		"fullName": "Romeo Juliet",
 		"password": "romeo", 
 		"username": "romeo",
+		"profile": "Romeo_Juliet.json"
 	}
 }
