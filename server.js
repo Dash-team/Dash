@@ -2,8 +2,10 @@ var express = require("express");
 var path = require("path");
 var fs = require("fs");
 var app = express();
+var compress = require("compression");
 var port = process.env.PORT || 3000;
 
+app.use(compress());
 app.use(express.static(path.join(__dirname, '/Dash_app')));
 
 app.get("/auth/in/:id/:pwd", function(req, res) {
