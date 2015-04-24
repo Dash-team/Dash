@@ -1,5 +1,6 @@
 body {
 	overflow: hidden;
+	background: #f9f9f9;
 }
 div.prerender {
 	position: absolute;
@@ -398,6 +399,7 @@ div#loginView {
 	height: 100vh;
 	margin-left: -86px;
 	z-index: 999;
+	background: #f9f9f9;
 }
 #loginView #loginCard {
 	position: absolute;
