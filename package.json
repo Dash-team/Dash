@@ -7,9 +7,6 @@
     "compression": "^1.4.3",
     "express": "^4.12.3"
   },
-  "scripts": {
-    "test": "./test/entry.js"
-  },
   "author": "Dash team",
   "license": "ISC"
 }
