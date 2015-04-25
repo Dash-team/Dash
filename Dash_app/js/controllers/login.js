@@ -1,6 +1,9 @@
 app.controller("loginController", ["$scope","$http","$rootScope", function($scope,$http,$rootScope) {
 	//dismiss prerender
-	document.querySelector("div.prerender").style.display = "none";
+	document.querySelector("div.prerender").style.opacity = "0";
+	setTimeout(function() {
+		document.querySelector("div.prerender").style.display = "none";
+	}, 250);
 
 	document.querySelector("div.template.nav").setAttribute("class","template nav");
 	$scope.username = "";

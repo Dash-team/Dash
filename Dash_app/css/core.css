@@ -12,6 +12,9 @@ div.prerender {
 	line-height: 70vh;
 	text-align: center;
 	color: #555;
+	-webkit-transition: all 0.25s;
+	-o-transition: all 0.25s;
+	transition: all 0.25s;
 }
 div.prerender .spinner {
 	position: absolute;
@@ -207,138 +210,6 @@ div.subjects p.error {
 	color: #888;
 	font-style: italic;
 }
-
-/*Old*/
-div.template.view div.card.splash {
-	width: 100%;
-	height: 250px;
-	background: url("../assets/splash.jpg") no-repeat;
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: 0 -170px;
-}
-div.template.view div.card.splash div.summary {
-	position: absolute;
-	width: calc(100% - 40px);
-	height: 60px;
-	margin-top: 30px;
-	margin-left: 40px;
-	font-family: "Helvetica Neue",sans-serif;
-	font-size: 1.6em;
-	font-weight: 200;
-	color: #f3f3f3;
-	text-shadow: 0 1px 0 #333;
-	line-height: 60px;
-}
-div.template.view div.card.splash div.info {
-	position: absolute;
-	width: calc(100% - 40px);
-	height: 40px;
-	margin-top: 100px;
-	margin-left: 40px;
-	font-family: "Inconsolata", monospace;
-	font-size: 17px;
-	font-weight: 200;
-	line-height: 40px;
-	color: #eee;
-	text-shadow: 0 1px 0 #333;
-}
-div.template.view div.card.splash div.actions {
-	position: absolute;
-	width: calc(100% - 40px);
-	height: 80px;
-	margin-top: 150px;
-	margin-left: 40px;
-}
-div.template.view div.card.splash div.actions div.item {
-	margin-top: 10px;
-	position: absolute;
-	width: 170px;
-	height: 50px;
-	border-radius: 3px;
-	background: #03A9F4;
-	text-align: center;
-	line-height: 50px;
-	cursor: pointer;
-	color: #f7f7f7;
-}
-div.template.view div.card.splash div.actions div.item:hover {
-	background: #2196F3;
-}
-div.template.view div.card.splash div.actions div.item:nth-child(2) {
-	margin-left: 200px;
-}
-div.template.view div.card.reminder {
-	width: 40%;
-	height: 150px;
-	display: block;
-}
-div.template.view div.card.reminder textarea {
-	position:relative;
-	width: 100%;
-	height: 150px;
-	resize:none;
-	outline:none;
-	border:none;
-	font-family: Georgia,Calibri,"Raleway";
-	font-style: italic;
-	font-size: 18px;
-	overflow-x:hidden;
-	overflow-y:auto;
-	border-left: 3px solid #03a9f4;
-	border-radius:0px;
-	word-wrap: normal;
-	background: #f7f7f7;
-	padding: 15px 20px 5px 15px;
-	color: #288dff;
-	box-shadow: inset -2px -2px 0 #f3f3f3;
-}
-div.template.view div.card.mark {
-	width: 20%;
-	height: 150px;
-	display: inline-block;
-	background: #68E59F;
-}
-div.template.view div.card.mark h3.subject {
-	width: 100%;
-	height: 50px;
-	font-size: 23px;
-	text-align: center;
-	line-height: 50px;
-	color: #f3f3f3;
-}
-div.template.view div.card.mark p.percentage {
-	position: relative;
-	width: 100%;
-	height: 100px;
-	margin-top: -20px;
-	font-family: "Helvetica";
-	font-size: 30px;
-	font-weight: 200;
-	color: #f3f3f3;
-	text-align: center;
-	line-height: 80px;
-	text-shadow: 0 1px 0 #666;
-}
-div.template.view div.card.mark.mus {
-	margin-left: -4px;
-	background: linear-gradient(rgba(242,119,93,.7),rgba(242,119,93,.7)),url("../assets/mus.jpg") no-repeat;
-	-webkit-background-size: cover;
-	background-size: cover;
-} 
-div.template.view div.card.mark.bio {
-	background: linear-gradient(rgba(104,229,159,.6),rgba(104,229,159,.6)),url("../assets/bio.jpg") no-repeat;
-	-webkit-background-size: cover;
-	background-size: cover;
-}
-div.template.view div.card.assessment {
-	width: 60%;
-	height: 300px;
-	display: block;
-	background: #FCE964;
-	margin-top: -300px;
-	margin-left: 40%;
-}
 /* --------------------------------reminder view-------------------------------- */
 ::-webkit-input-placeholder { color:rgba(200,200,200,0.5);; }
 #reminderView {
@@ -398,15 +269,20 @@ div#loginView {
 	width: 100vw;
 	height: 100vh;
 	margin-left: -86px;
-	z-index: 999;
+	z-index: 800;
 	background: #f9f9f9;
+	overflow: hidden;
+	opacity: 1;
+	-webkit-transition: all 0.25s;
+	-o-transition: all 0.25s;
+	transition: all 0.25s;
 }
 #loginView #loginCard {
 	position: absolute;
 	width: 40%;
 	height: 350px;
 	margin-left:30%;
-	margin-top:20vh;
+	margin-top: 25vh;
 	text-align: center;
 	z-index: 800;
 }
