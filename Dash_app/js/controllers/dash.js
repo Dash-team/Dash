@@ -3,6 +3,6 @@ app.controller("dashController",["$scope","$rootScope", function($scope, $rootSc
 	$scope.status = "Economics is coming up in 23 minutes";
 	// reminder
 	$scope.colorOf = function(index) {
-		return $scope.user.subjects[index].color;
+		return $scope.user.subjects[index].color || "#288dff";
 	}
 }]);
