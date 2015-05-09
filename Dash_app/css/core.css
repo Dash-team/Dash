@@ -210,6 +210,73 @@ div.subjects p.error {
 	color: #888;
 	font-style: italic;
 }
+/*Flash*/
+div.flash {
+	width: 100%;
+	height: 250px;
+	background: #e7e7e7;
+}
+div.flash div.now {
+	width: 60%;
+	height: 250px;
+	position: absolute;
+	background: #00EBC1;
+}
+div.flash div.decorator.top {
+	width: 80%;
+	height: 7px;
+	margin-left: 45px;
+	margin-top: 35px;
+	background: inherit;
+}
+div.flash div.decorator.top span.thick {
+	position: absolute;
+	width: 15%;
+	height: 7px;
+	margin-left: -1px;
+	background: #17AB91;
+}
+div.flash div.info p.title {
+	font-size: 16px;
+	margin-left: 45px;
+	margin-top: 5px;
+	color: #17AB91;
+}
+div.flash div.info p.des {
+	font-size: 35px;
+	margin-left: 45px;
+	margin-top: 20px;
+	color: #fff;
+}
+div.flash div.info span.icon {
+	float: right;
+	margin-right: 50px;
+	margin-top: -140px;
+	clear: left;
+}
+div.flash span.mode {
+	display: block;
+	margin-left: 45px;
+	margin-top: 50px;
+	color: #2DCFB2;
+}
+div.flash div.next {
+	width: 40%;
+	position: absolute;
+	margin-left: 60%;
+	background: #00ffd0;
+	height: 250px;
+}
+div.flash div.next div.decorator.top span.thick {
+	width: 25%;
+	background: #17AB91;
+}
+div.flash div.next div.info p.title {
+	color: #17AB91;
+}
+div.flash div.next div.info p.des {
+	color: #f7f7f7;
+}
 /* --------------------------------reminder view-------------------------------- */
 ::-webkit-input-placeholder { color:rgba(200,200,200,0.5);; }
 #reminderView {

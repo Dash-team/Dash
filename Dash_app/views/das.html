@@ -2,7 +2,7 @@
 	<h3>Hello, {{user.fullName}}</h3>
 	<br><p>{{status}}</p>
 </div>
-<div class="subjects">
+<!-- <div class="subjects">
 	<p ng-show="!user.subjects.length" class="error">
 		Looks like you are not enrolled in any courses
 		<br>Please contact technical support for more information
@@ -13,4 +13,28 @@
 			<p class="name">{{item.name}}</p>
 		</li>
 	</ul>
+</div> -->
+<div class="flash">
+	<div class="now">
+		<div class="decorator top">
+			<span class="thick"></span>
+		</div>
+		<div class="info">
+			<p class="title">{{flash.now.title}}</p>
+			<p class="des">{{flash.now.des}}</p>
+			<span class="icon"><img ng-src="{{flash.now.icon}}" alt="flash icon"/></span>
+		</div>
+		<span class="mode">now</span>
+	</div>
+	<div class="next">
+		<div class="decorator top">
+			<span class="thick"></span>
+		</div>
+		<div class="info">
+			<p class="title">{{flash.next.title}}</p>
+			<p class="des">{{flash.next.des}}</p>
+			<span class="icon"><img ng-src="{{flash.next.icon}}" alt="flash icon"/></span>
+		</div>
+		<span class="mode">next up</span>
+	</div>
 </div>

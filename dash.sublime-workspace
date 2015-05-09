@@ -144,22 +144,6 @@
 	"buffers":
 	[
 		{
-			"file": "Dash_app/index.html",
-			"settings":
-			{
-				"buffer_size": 3775,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/minhle/Desktop/dev/java/newWindow.java",
-			"settings":
-			{
-				"buffer_size": 714,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "Dash_app/views/das.html",
 			"settings":
 			{
@@ -168,10 +152,18 @@
 			}
 		},
 		{
-			"file": "Dash_app/js/controllers/login.js",
+			"file": "Dash_app/css/core.css",
 			"settings":
 			{
-				"buffer_size": 1316,
+				"buffer_size": 8091,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Dash_app/js/controllers/dash.js",
+			"settings":
+			{
+				"buffer_size": 290,
 				"line_ending": "Unix"
 			}
 		}
@@ -184,9 +176,13 @@
 	"command_palette":
 	{
 		"height": 164.0,
-		"last_filter": "git push",
+		"last_filter": "install",
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"git push",
 				"Git: Push"
@@ -248,10 +244,6 @@
 				"Package Control: Remove Package"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"git log",
 				"Git: Log All"
 			],
@@ -296,7 +288,7 @@
 				"Set Syntax: JSON"
 			]
 		],
-		"width": 435.0
+		"width": 417.0
 	},
 	"console":
 	{
@@ -322,19 +314,22 @@
 	],
 	"file_history":
 	[
+		"/Users/minhle/Desktop/dev/Rush/Rush.sublime-project",
+		"/Users/minhle/Desktop/dev/dash/Dash_app/js/controllers/login.js",
+		"/Users/minhle/Desktop/dev/dash/Dash_app/index.html",
+		"/Users/minhle/Desktop/dev/dash/Dash_app/views/das.html",
+		"/Users/minhle/Desktop/dev/java/newWindow.java",
 		"/Users/minhle/Desktop/dev/dash/Dash_app/js/helpers/loader.js",
 		"/Users/minhle/Desktop/dev/dash/Dash_app/js/controllers/dash.js",
 		"/Users/minhle/Desktop/dev/dash/Dash_app/css/core.css",
 		"/Users/minhle/Desktop/dev/dash/Dash_app/css/skeleton.css",
 		"/Users/minhle/Desktop/dev/dash/Procfile",
 		"/Users/minhle/Desktop/dev/dash/package.json",
-		"/Users/minhle/Desktop/dev/dash/Dash_app/index.html",
 		"/Users/minhle/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/minhle/Desktop/dev/dash/gulpfile.js",
 		"/Users/minhle/Desktop/dev/dash/build/Dash_app/js/bundle.js",
 		"/Users/minhle/Desktop/dev/dash/node_modules/gulp-html-replace/node_modules/through2/package.json",
 		"/Users/minhle/Desktop/dev/dash/Dash_app/js/helpers/moment.js",
-		"/Users/minhle/Desktop/dev/dash/Dash_app/views/das.html",
 		"/Users/minhle/Desktop/dev/dash/Dash_app/views/res.html",
 		"/Users/minhle/Desktop/dev/dash/Dash_app/js/controllers/resources.js",
 		"/Users/minhle/Desktop/dev/dash/profiles/logins.json",
@@ -343,7 +338,6 @@
 		"/Users/minhle/Desktop/dev/dash/Dash_app/js/controllers/main.js",
 		"/Users/minhle/Desktop/dev/dash/Dash_app/views/login.html",
 		"/Users/minhle/Desktop/dev/dash/Dash_app/js/controllers/nav.js",
-		"/Users/minhle/Desktop/dev/dash/Dash_app/js/controllers/login.js",
 		"/Users/minhle/Desktop/dev/dash/Dash_app/js/controllers/rem.js",
 		"/Users/minhle/Desktop/dev/dash/Dash_app/views/rem.html",
 		"/Users/minhle/Desktop/dev/dash/Dash_app/js/controllers/option.js",
@@ -391,7 +385,6 @@
 		"/Users/minhle/Desktop/dev/Tempus/css/core.css",
 		"/Users/minhle/Desktop/dev/Tempus/index.html",
 		"/Users/minhle/Desktop/dev/java/management/apple.java",
-		"/Users/minhle/Desktop/dev/java/newWindow.java",
 		"/Users/minhle/Desktop/dev/java/calc/entry.java",
 		"/Users/minhle/Desktop/dev/java/management/abstract.java",
 		"/Users/minhle/Desktop/dev/java/hello.java",
@@ -505,63 +498,6 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Dash_app/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3775,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2969,
-								2969
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Users/minhle/Desktop/dev/java/newWindow.java",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 714,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								403,
-								403
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "Dash_app/views/das.html",
 					"semi_transient": false,
 					"settings":
@@ -573,8 +509,8 @@
 						"selection":
 						[
 							[
-								207,
-								207
+								0,
+								0
 							]
 						],
 						"settings":
@@ -590,32 +526,60 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "Dash_app/js/controllers/login.js",
+					"buffer": 1,
+					"file": "Dash_app/css/core.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1316,
+						"buffer_size": 8091,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								182,
-								182
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2751.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Dash_app/js/controllers/dash.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 290,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -770,6 +734,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"~/Desktop/dev/Rush/Rush.sublime-project"
+			]
 		],
 		"width": 380.0
 	},
