@@ -21,7 +21,7 @@ div.prerender .spinner {
 	margin-left: -30vw;
 	margin-top: 45vh;
 }
-div.template.nav {
+/*div.template.nav {
 	position: absolute;
 	width: 86px;
 	height: 100vh;
@@ -44,7 +44,6 @@ div.template.nav div.minimized {
 	z-index: 999;
 	cursor: pointer;
 	background: #f7f7f7;
-	/*box-shadow: inset 0 5px 0 #2296f3;*/
 }
 div.template.nav div.minimized div.app.icon {
 	width: 64px;
@@ -86,7 +85,6 @@ div.template.nav div.expanded {
 	-o-transition: all 0.25s;
 	transition: all 0.25s;
 	transition-timing-function: ease-in-out;
-	/*box-shadow: inset 0 5px 0 #2296f3;*/
 }
 div.template.nav div.expanded div.nav {
 	width: 300px;
@@ -137,12 +135,11 @@ div.template.nav div.expanded div.options ul li.item:after {
 }
 div.template.nav div.expanded div.options ul li.item:hover::after {
 	width: 40px;
-}
+}*/
 div.template.view {
 	position: absolute;
-	width: calc(100vw - 86px);
+	width: 100vw;
 	height: 100vh;
-	margin-left: 86px;
 	background: #fefefe;
 	overflow-x: hidden;
 	overflow-y: auto;
@@ -335,7 +332,6 @@ div#loginView {
 	position: absolute;
 	width: 100vw;
 	height: 100vh;
-	margin-left: -86px;
 	z-index: 800;
 	background: #f9f9f9;
 	overflow: hidden;

@@ -12,7 +12,6 @@ app.controller("loginController", ["$scope","$http","$rootScope", function($scop
 			document.querySelector("div.prerender").style.display = "none";
 		}, 250);
 
-		document.querySelector("div.template.nav").setAttribute("class","template nav");
 		$scope.username = "";
 		$scope.password = "";
 		$scope.auth = function() {
@@ -25,7 +24,6 @@ app.controller("loginController", ["$scope","$http","$rootScope", function($scop
 			.success(function(data,status,header,config) {
 					alertify.success("Logged in successful as "+$scope.username);
 					$rootScope.user = data;
-					document.querySelector("div.template.nav").setAttribute("class","template nav active");
 					//mixpanel
 					mixpanel.identify(data.fullName);
 					mixpanel.people.set({

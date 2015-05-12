@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"font",
+				"font-size"
+			],
+			[
 				"XM",
 				"XMLHttpRequest"
 			],
@@ -42,10 +46,6 @@
 			[
 				"modu",
 				"moduleList"
-			],
-			[
-				"font",
-				"font-family"
 			],
 			[
 				"data",
@@ -147,7 +147,7 @@
 			"file": "Dash_app/views/das.html",
 			"settings":
 			{
-				"buffer_size": 470,
+				"buffer_size": 1162,
 				"line_ending": "Unix"
 			}
 		},
@@ -155,15 +155,15 @@
 			"file": "Dash_app/css/core.css",
 			"settings":
 			{
-				"buffer_size": 8091,
-				"line_ending": "Windows"
+				"buffer_size": 12768,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "Dash_app/js/controllers/dash.js",
 			"settings":
 			{
-				"buffer_size": 290,
+				"buffer_size": 503,
 				"line_ending": "Unix"
 			}
 		}
@@ -310,10 +310,14 @@
 	[
 		"/Users/minhle/Desktop/dev/dash",
 		"/Users/minhle/Desktop/dev/dash/Dash_app",
-		"/Users/minhle/Desktop/dev/dash/Dash_app/js"
+		"/Users/minhle/Desktop/dev/dash/Dash_app/js",
+		"/Users/minhle/Desktop/dev/dash/Dash_app/js/helpers"
 	],
 	"file_history":
 	[
+		"/Users/minhle/Desktop/dev/dash/Dash_app/assets/alarm.svg",
+		"/Users/minhle/Desktop/dev/dash/Dash_app/assets/assignment.svg",
+		"/Users/minhle/Desktop/dev/dash/profiles/Kevin_Reyes.json",
 		"/Users/minhle/Desktop/dev/Rush/Rush.sublime-project",
 		"/Users/minhle/Desktop/dev/dash/Dash_app/js/controllers/login.js",
 		"/Users/minhle/Desktop/dev/dash/Dash_app/index.html",
@@ -493,7 +497,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -502,15 +506,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 470,
+						"buffer_size": 1162,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								548,
+								548
 							]
 						],
 						"settings":
@@ -519,10 +523,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 38.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -531,7 +535,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8091,
+						"buffer_size": 12768,
 						"regions":
 						{
 						},
@@ -548,10 +552,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2751.0,
+						"translation.y": 3664.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -560,20 +564,21 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 290,
+						"buffer_size": 503,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								380,
+								380
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
