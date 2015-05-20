@@ -21,6 +21,43 @@ div.prerender .spinner {
 	margin-left: -30vw;
 	margin-top: 45vh;
 }
+/*Cards*/
+.card-container {
+	width: 100vw;
+	height: 500px;
+}
+.card-container .card {
+	background: grey;
+}
+.card-container .card:first-child {
+	position: absolute;
+	margin-left: 45px;
+	margin-top: 30px;
+}
+.card-container .card:nth-child(2) {
+	position: absolute;
+	margin-left: 45px;
+	margin-top: 185px;
+}
+.card-container .card:nth-child(3) {
+	position: absolute;
+	margin-left: 380px;
+	margin-top: 30px;
+}
+/*Custom directive*/
+.card-small {
+	display: inline-block;
+	width: 320px;
+	height: 140px;
+	background: grey;
+}
+.card-square {
+	display: inline-block;
+	width: 295px;
+	height: 295px;
+	background: blue;
+}
+/*--------------------*/
 /*div.template.nav {
 	position: absolute;
 	width: 86px;

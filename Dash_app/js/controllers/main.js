@@ -6,6 +6,19 @@ app.run(['$rootScope', function($rootScope){
 	$rootScope.user = {}
 }]);
 
+app.directive('cardSmall', function() {
+  return {
+    restrict: 'E',
+    template: '<div class="card-small"></div>'
+  }
+});
+app.directive('cardSquare', function() {
+  return {
+    restrict: 'E',
+    template: '<div class="card-square"></div>'
+  }
+});
+
 app.config(function($routeProvider) {
 	$routeProvider.when("/", {
 		templateUrl: "../views/login.html",

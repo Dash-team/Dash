@@ -13,6 +13,17 @@ app.controller("dashController",["$scope","$rootScope", function($scope, $rootSc
 			icon: "assets/alarm.svg"
 		}
 	}
+	$(document).ready(function() {
+		// var wall = new freewall(".card-container");
+		// wall.reset({
+		// 	draggable: true,
+		// 	cellW: function(width) {
+		// 	    var cellWidth = width / 3;
+		// 	    return cellWidth - 20;
+		// 	}
+		// });	
+		// wall.fitWidth();
+	});
 	// reminder
 	$scope.colorOf = function(index) {
 		return $scope.user.subjects[index].color || "#288dff";
