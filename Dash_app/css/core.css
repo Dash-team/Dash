@@ -22,27 +22,20 @@ div.prerender .spinner {
 	margin-top: 45vh;
 }
 /*Cards*/
-.card-container {
+.gridster {
 	width: 100vw;
 	height: 500px;
 }
-.card-container .card {
-	background: grey;
-}
-.card-container .card:first-child {
-	position: absolute;
-	margin-left: 45px;
+.gridster ul#elems {
+	position: relative;
+	width: 100%;
+	height: 600px;
+	margin-left: 35px;
 	margin-top: 30px;
 }
-.card-container .card:nth-child(2) {
-	position: absolute;
-	margin-left: 45px;
-	margin-top: 185px;
-}
-.card-container .card:nth-child(3) {
-	position: absolute;
-	margin-left: 380px;
-	margin-top: 30px;
+.gridster ul#elems li {
+	background: #288dff;
+	list-style: none;
 }
 /*Custom directive*/
 .card-small {
@@ -58,121 +51,6 @@ div.prerender .spinner {
 	background: blue;
 }
 /*--------------------*/
-/*div.template.nav {
-	position: absolute;
-	width: 86px;
-	height: 100vh;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	background: #f7f7f7;
-	margin-left: -86px;
-	-webkit-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
-}
-div.template.nav.active {
-	margin-left: 0;
-}
-div.template.nav div.minimized {
-	position: absolute;
-	width: 86px;
-	height: 100vh;
-	z-index: 999;
-	cursor: pointer;
-	background: #f7f7f7;
-}
-div.template.nav div.minimized div.app.icon {
-	width: 64px;
-	height: 64px;
-	margin-left: 11px;
-	margin-top: 75px;
-	background: url("../assets/icon.png") no-repeat center;
-	-webkit-background-size: contain;
-	background-size: contain;
-}
-div.template.nav div.minimized div.menu.icon {
-	width: 64px;
-	height: 64px;
-	margin-left: 11px;
-	margin-top: calc(50vh - 325px);
-	font-size: 1.75em;
-	text-align: center;
-	line-height: 64px;
-	color: #333;
-}
-div.template.nav div.minimized div.copyright {
-	position: absolute;
-	width: 86px;
-	height: 50px;
-	margin-top: calc(100vh - 290px);
-	font-size: 23px;
-	line-height: 50px;
-	text-align: center;
-	color: #F2676F;
-}
-div.template.nav div.expanded {
-	position: absolute;
-	width: 300px;
-	height: 100vh;
-	left: -214px;
-	z-index: 50;
-	background: #f7f7f7;
-	-webkit-transition: all 0.25s;
-	-o-transition: all 0.25s;
-	transition: all 0.25s;
-	transition-timing-function: ease-in-out;
-}
-div.template.nav div.expanded div.nav {
-	width: 300px;
-	height: 64px;
-	margin-top: 75px;
-}
-div.template.nav div.expanded div.nav div.title {
-	position: absolute;
-	margin-left: 11px;
-	font-family: "Helvetica Neue","Tw Cen MT",sans-serif;
-	font-size: 30px;
-	font-weight: 200;
-	line-height: 64px;
-	color: #2296f3;
-	cursor: default;
-}
-div.template.nav div.expanded div.options {
-	width: 300px;
-	height: 50vh;
-	margin-top: 5vh;
-}
-div.template.nav div.expanded div.options ul li.item {
-	width: 300px;
-	height: 40px;
-	margin-left: 11px;
-	list-style: none;
-	font-family: "Helvetica Neue","Tw Cen MT",sans-serif;
-	font-size: 20px;
-	font-weight: 200;
-	line-height: 40px;
-	text-transform: uppercase;
-	color: #0074d1;
-	cursor: pointer;
-}
-div.template.nav div.expanded div.options a {
-	text-decoration: none;
-}
-div.template.nav div.expanded div.options ul li.item:after {
-	content: "";
-	position: absolute;
-	width: 0px;
-	height: 3px;
-	margin-top: 35px;
-	left: 11px;
-	background: #0074d1;
-	overflow: hidden;
-	transition: all 0.25s;
-}
-div.template.nav div.expanded div.options ul li.item:hover::after {
-	width: 40px;
-}*/
 div.template.view {
 	position: absolute;
 	width: 100vw;
