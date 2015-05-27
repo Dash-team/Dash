@@ -16,7 +16,7 @@ app.controller("dashController",["$scope","$rootScope", function($scope, $rootSc
 	$(function() {
     	$(".gridster ul").gridster({
         	widget_margins: [10, 10],
-        	widget_base_dimensions: [140, 140]
+        	widget_base_dimensions: [180, 180]
     	});
 	});
 	// reminder
