@@ -17,7 +17,7 @@ app.controller("dashController",["$scope","$rootScope", function($scope, $rootSc
 	$(function() {
     	$(".gridster ul").gridster({
         	widget_margins: [10, 10],
-        	widget_base_dimensions: [180, 180],
+        	widget_base_dimensions: [170, 170],
         	draggable: {
         		start: function() {
         			$scope.drag = true;
