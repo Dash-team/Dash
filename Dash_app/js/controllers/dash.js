@@ -1,4 +1,5 @@
 app.controller("dashController",["$scope","$rootScope", function($scope, $rootScope) {
+	$scope.drag = false;
 	$scope.user = $rootScope.user;
 	$scope.status = "Economics is coming up in 23 minutes";
 	$scope.flash = {
@@ -16,12 +17,20 @@ app.controller("dashController",["$scope","$rootScope", function($scope, $rootSc
 	$(function() {
     	$(".gridster ul").gridster({
         	widget_margins: [10, 10],
-        	widget_base_dimensions: [180, 180]
+        	widget_base_dimensions: [180, 180],
+        	draggable: {
+        		start: function() {
+        			$scope.drag = true;
+        		}
+        	}
     	});
 	});
 	$scope.expandCard = function($event) {
-		var DOMcard = $event.target;
-		window.location.hash = DOMcard.getAttribute("data-hash");
+		if (!$scope.drag) {
+			var DOMcard = $event.target;
+			window.location.hash = DOMcard.getAttribute("data-hash");
+		}
+		$scope.drag = false;
 	}
 	// reminder
 	$scope.colorOf = function(index) {
