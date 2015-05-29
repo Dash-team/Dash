@@ -30,7 +30,7 @@ app.controller("loginController", ["$scope","$http","$rootScope", function($scop
 						"$name": data.fullName,
 						"lastLogin": new Date()
 					});
-					document.querySelector("div.template.nav").style.marginLeft = "0";
+					document.querySelector("div.template.nav").setAttribute("class","template nav active");
 					window.location.hash = "das";
 				})
 				.error(function(data,status,header,config) {
