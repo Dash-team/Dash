@@ -19,6 +19,10 @@ app.controller("dashController",["$scope","$rootScope", function($scope, $rootSc
         	widget_base_dimensions: [180, 180]
     	});
 	});
+	$scope.expandCard = function($event) {
+		var DOMcard = $event.target;
+		window.location.hash = DOMcard.getAttribute("data-hash");
+	}
 	// reminder
 	$scope.colorOf = function(index) {
 		return $scope.user.subjects[index].color || "#288dff";
