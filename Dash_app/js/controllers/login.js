@@ -12,8 +12,14 @@ app.controller("loginController", ["$scope","$http","$rootScope", function($scop
 			document.querySelector("div.prerender").style.display = "none";
 		}, 250);
 
-		$scope.username = "";
-		$scope.password = "";
+		$scope.username = "kevin";
+		$scope.password = "kevin";
+
+		$scope.loadComponents = function(components) {
+			for (x=0;x<components.length;x++) {
+				loadScript("cards/"+components[x].name+"/index.js", function() {});
+			}
+		}
 		$scope.auth = function() {
 			var loadingScreen = document.getElementById('loadingScreen');
 			loadingScreen.style.opacity = 1;
@@ -30,6 +36,8 @@ app.controller("loginController", ["$scope","$http","$rootScope", function($scop
 						"$name": data.fullName,
 						"lastLogin": new Date()
 					});
+					//Load all components for cards
+					$scope.loadComponents($rootScope.user.cards)
 					document.querySelector("div.template.nav").setAttribute("class","template nav active");
 					window.location.hash = "das";
 				})
@@ -40,5 +48,24 @@ app.controller("loginController", ["$scope","$http","$rootScope", function($scop
 					loadingScreen.style.marginTop = "20%";
 				});
 		}
+	}
+	function loadScript(src, callback) {
+	  var s,
+	      r,
+	      t;
+	  r = false;
+	  s = document.createElement('script');
+	  s.type = 'text/javascript';
+	  s.src = src;
+	  s.onload = s.onreadystatechange = function() {
+	    //console.log( this.readyState ); //uncomment this line to see which ready states are called.
+	    if ( !r && (!this.readyState || this.readyState == 'complete') )
+	    {
+	      r = true;
+	      callback();
+	    }
+	  };
+	  t = document.getElementsByTagName('script')[0];
+	  t.parentNode.insertBefore(s, t);
 	}
 }]);
