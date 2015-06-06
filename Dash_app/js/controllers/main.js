@@ -23,28 +23,32 @@ app.config(function($routeProvider) {
 	$routeProvider.when("/", {
 		templateUrl: "../views/login.html",
 		controller: "loginController"
-	});
-	$routeProvider.when("/das", {
+	})
+	.when("/das", {
 		templateUrl: "../views/das.html",
 		controller: "dashController"
-	});
-	$routeProvider.when("/res", {
+	})
+	.when("/res", {
 		templateUrl: "../views/res.html",
 		controller: "resourcesController"
-	});
-	$routeProvider.when("/rem", {
+	})
+	.when("/rem", {
 		templateUrl: "../views/rem.html",
 		controller: "reminderController"
-	});
-	$routeProvider.when("/opt", {
+	})
+	.when("/eve", {
+		templateUrl: "../views/eve.html",
+		controller: "evernoteController"
+	})
+	.when("/opt", {
 		templateUrl: "../views/opt.html",
 		controller: "optionController"
-	});
-	$routeProvider.when("/cal", {
+	})
+	.when("/cal", {
 		templateUrl: "../views/cal.html",
 		controller: "calendarController"
-	});
-	$routeProvider.otherwise({
+	})
+	.otherwise({
 		redirectTo: "/"
 	});
 });

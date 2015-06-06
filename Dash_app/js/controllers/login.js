@@ -12,8 +12,8 @@ app.controller("loginController", ["$scope","$http","$rootScope", function($scop
 			document.querySelector("div.prerender").style.display = "none";
 		}, 250);
 
-		$scope.username = "";
-		$scope.password = "";
+		$scope.username = "kevin";
+		$scope.password = "kevin";
 		$scope.auth = function() {
 			var loadingScreen = document.getElementById('loadingScreen');
 			loadingScreen.style.opacity = 1;

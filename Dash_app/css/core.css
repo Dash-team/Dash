@@ -517,6 +517,38 @@ div#loginView #loginCard input {
 .sectionItem .tickBoxName {
 	margin-left: -30px;
 }
+/*---------------EVERNOTE----------------*/
+iframe#evernote {
+	width: calc(100vw - 86px);
+	height: 100vh;
+	margin: 0;
+}
+/*---------------TIMETABLE---------------*/
+.gridster ul#elems li.timetable {
+	background: #FCE964;
+}
+li.timetable span.info {
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 20px;
+	font-size: 25px;
+	color: #555;
+}
+li.timetable p.des {
+	position: absolute;
+	margin-top: 55px;
+	margin-left: 20px;
+	font-size: 14px;
+	color: #777;
+}
+li.timetable button.view {
+	position: absolute;
+	margin-top: 120px;
+	margin-left: 20px;
+	color: #288dff;
+	border: none;
+	padding-left: 0;
+}
 /*---------------CALENDAR----------------*/
 .noselect {
   -webkit-user-select: none;
